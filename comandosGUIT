@@ -22,11 +22,11 @@ git commit -m "Adicionado o arquivo Hello.sh" adiciona o arquivo e comenta
 
 
 Criando chave ssh
+  ls
+  cd
+  ls ~/.ssh <verifica as chaves ssh criadas.
+  ssh-keygen -C "chave ssh github" <cria a chave com comentario
+  ls ~/.ssh
+  xclip -sel clip ~/.ssh/id_rsa.pub <copia o conteudo da chave publica para colar na pagina de chaves ssh do git hub.
 
- 2001  ls
- 2002  cd
- 2003  ls ~/.ssh <verifica as chaves ssh criadas.
- 2005  ssh-keygen -C "chave ssh github" <cria a chave com comentario
- 2006  ls ~/.ssh
- 2010  xclip -sel clip ~/.ssh/id_rsa.pub <copia o conteudo da chave publica para colar na pagina de chaves ssh do git hub.
 

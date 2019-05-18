@@ -1,0 +1,32 @@
+sudo apt-get install git  <Estala o git
+pwd <mostra onde está
+git config --global user.name "Jean" <Da nome para o git da máquina
+git config --global user.email "jeancarlosm.lima@gmail.com" <da email ao git
+ls -la
+cat .gitconfig <mostra o nome e o email que acabou de adicionar
+git clone https://github.com/zJeanMiliodas/shellscript <este comando clona um Repositório do site da GitHub, e acicioma a /home do pc.
+ls 
+cd shellscript/ <entramos na pasta clonada
+git status <verificamos o estatus da pasta.
+pico hello.sh <vamos criar um shell script, hello word par aupar no git hub. 
+ls -l
+chmod +x hello.sh <damos a permissão de execução ao nosso script
+ ls -l
+sh hello.sh <executamos o escript pra testar
+git status <aqui verificamos que um novo arquivo foi criado mas nao esta salvo na guit hub.
+git add hello.sh <adiciona a lista de arquivos a serem mandados para o git hub.
+git status <verifica o estatus para ver se o arquivo foi para lista
+git commit -m "Adicionado o arquivo Hello.sh" adiciona o arquivo e comenta 
+ git status
+ 1999  git push <envia o arquivo dependendo o metodo de autenticação.
+
+
+Criando chave ssh
+
+ 2001  ls
+ 2002  cd
+ 2003  ls ~/.ssh <verifica as chaves ssh criadas.
+ 2005  ssh-keygen -C "chave ssh github" <cria a chave com comentario
+ 2006  ls ~/.ssh
+ 2010  xclip -sel clip ~/.ssh/id_rsa.pub <copia o conteudo da chave publica para colar na pagina de chaves ssh do git hub.
+

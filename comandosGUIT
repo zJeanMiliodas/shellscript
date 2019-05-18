@@ -16,8 +16,9 @@ sh hello.sh <executamos o escript pra testar
 git status <aqui verificamos que um novo arquivo foi criado mas nao esta salvo na guit hub.
 git add hello.sh <adiciona a lista de arquivos a serem mandados para o git hub.
 git status <verifica o estatus para ver se o arquivo foi para lista
-git commit -m "Adicionado o arquivo Hello.sh" <comenta algo sobre a remeça de novos arquivos adicionados.
- 1999  git push <envia o arquivo ao git hub  dependendo o metodo de autenticação.
+git commit -m "Adicionado o arquivo Hello.sh" adiciona o arquivo e comenta 
+ git status
+ 1999  git push <envia o arquivo dependendo o metodo de autenticação.
 
 
 Criando chave ssh
@@ -29,5 +30,3 @@ Criando chave ssh
  2006  ls ~/.ssh
  2010  xclip -sel clip ~/.ssh/id_rsa.pub <copia o conteudo da chave publica para colar na pagina de chaves ssh do git hub.
 
-
-	ssh -T git@github.com testa a chave ssh
